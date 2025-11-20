@@ -1,0 +1,32 @@
+[1.808s] Invoking command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/build --no-deps symlink_data
+[2.101s] running develop
+[2.328s] running egg_info
+[2.329s] creating wall_description.egg-info
+[2.331s] writing wall_description.egg-info/PKG-INFO
+[2.333s] writing dependency_links to wall_description.egg-info/dependency_links.txt
+[2.334s] writing entry points to wall_description.egg-info/entry_points.txt
+[2.334s] writing requirements to wall_description.egg-info/requires.txt
+[2.335s] writing top-level names to wall_description.egg-info/top_level.txt
+[2.337s] writing manifest file 'wall_description.egg-info/SOURCES.txt'
+[2.341s] reading manifest file 'wall_description.egg-info/SOURCES.txt'
+[2.342s] writing manifest file 'wall_description.egg-info/SOURCES.txt'
+[2.344s] running build_ext
+[2.345s] Creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/lib/python3.10/site-packages/wall-description.egg-link (link to .)
+[2.347s] 
+[2.347s] Installed /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description
+[2.347s] running symlink_data
+[2.347s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/ament_index
+[2.349s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/ament_index/resource_index
+[2.351s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/ament_index/resource_index/packages
+[2.354s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/resource/wall_description -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/ament_index/resource_index/packages
+[2.354s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/package.xml -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description
+[2.360s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/launch
+[2.360s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/launch/view_wall.launch.py -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/launch
+[2.360s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/rviz
+[2.362s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/rviz/wall.rviz -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/rviz
+[2.362s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/urdf
+[2.363s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/urdf/inertials.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/urdf
+[2.364s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/urdf/materials.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/urdf
+[2.365s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/urdf/wall.urdf.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/urdf
+[2.366s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/urdf/wall_macro.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/urdf
+[2.450s] Invoked command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description' returned '0': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/build --no-deps symlink_data

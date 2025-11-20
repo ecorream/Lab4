@@ -1,0 +1,32 @@
+[1.753s] Invoking command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/build --no-deps symlink_data
+[2.035s] running develop
+[2.260s] running egg_info
+[2.260s] creating table_description.egg-info
+[2.262s] writing table_description.egg-info/PKG-INFO
+[2.263s] writing dependency_links to table_description.egg-info/dependency_links.txt
+[2.264s] writing entry points to table_description.egg-info/entry_points.txt
+[2.265s] writing requirements to table_description.egg-info/requires.txt
+[2.265s] writing top-level names to table_description.egg-info/top_level.txt
+[2.269s] writing manifest file 'table_description.egg-info/SOURCES.txt'
+[2.272s] reading manifest file 'table_description.egg-info/SOURCES.txt'
+[2.274s] writing manifest file 'table_description.egg-info/SOURCES.txt'
+[2.275s] running build_ext
+[2.275s] Creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/lib/python3.10/site-packages/table-description.egg-link (link to .)
+[2.278s] 
+[2.278s] Installed /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description
+[2.278s] running symlink_data
+[2.278s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/ament_index
+[2.280s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/ament_index/resource_index
+[2.282s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/ament_index/resource_index/packages
+[2.285s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/resource/table_description -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/ament_index/resource_index/packages
+[2.285s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/package.xml -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/table_description
+[2.288s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/table_description/launch
+[2.289s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/launch/view_table.launch.py -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/table_description/launch
+[2.289s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/table_description/rviz
+[2.290s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/rviz/table.rviz -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/table_description/rviz
+[2.293s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/table_description/urdf
+[2.296s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/urdf/inertials.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/table_description/urdf
+[2.297s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/urdf/materials.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/table_description/urdf
+[2.297s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/urdf/table.urdf.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/table_description/urdf
+[2.297s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/urdf/table_macro.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/share/table_description/urdf
+[2.319s] Invoked command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description' returned '0': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/build --no-deps symlink_data

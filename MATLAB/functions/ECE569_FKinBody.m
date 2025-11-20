@@ -22,8 +22,31 @@ function T = ECE569_FKinBody(M, Blist, thetalist)
 %         0         0   -1.0000    1.6858
 %         0         0         0    1.0000
 
-T = M;
-for i = 1: size(thetalist)
-    % T = T * ...
-end
+    thetalist = thetalist(:);
+
+    % Si Blist viene en forma 1x(6n) o n×6, intentamos corregir
+    % Caso típico de error: Blist es 1xN o 6x1 transpuesto
+    if size(Blist, 1) ~= 6 && size(Blist, 2) == 6
+        % Si está "acostado" como n×6, lo transponemos a 6×n
+        Blist = Blist.';
+    end
+
+    % Chequeo de seguridad: Blist debe ser 6×n
+    if size(Blist, 1) ~= 6
+        error('ECE569_FKinBody: Blist debe ser de tamaño 6xn. Tamaño actual: %dx%d', ...
+              size(Blist,1), size(Blist,2));
+    end
+
+    n = length(thetalist);
+    if size(Blist, 2) ~= n
+        error('ECE569_FKinBody: número de columnas de Blist (%d) no coincide con length(thetalist) (%d).', ...
+              size(Blist,2), n);
+    end
+
+    T = M;
+    for i = 1:n
+        Bi    = Blist(:, i);                      % 6x1
+        se3_i = ECE569_VecTose3(Bi * thetalist(i));  % [Bi * theta_i]^
+        T = T * ECE569_MatrixExp6(se3_i);
+    end
 end

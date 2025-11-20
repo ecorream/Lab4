@@ -1,0 +1,32 @@
+[1.840s] Invoking command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/build --no-deps symlink_data
+[2.111s] running develop
+[2.332s] running egg_info
+[2.333s] creating msee22_description.egg-info
+[2.334s] writing msee22_description.egg-info/PKG-INFO
+[2.338s] writing dependency_links to msee22_description.egg-info/dependency_links.txt
+[2.340s] writing entry points to msee22_description.egg-info/entry_points.txt
+[2.342s] writing requirements to msee22_description.egg-info/requires.txt
+[2.342s] writing top-level names to msee22_description.egg-info/top_level.txt
+[2.344s] writing manifest file 'msee22_description.egg-info/SOURCES.txt'
+[2.348s] reading manifest file 'msee22_description.egg-info/SOURCES.txt'
+[2.349s] writing manifest file 'msee22_description.egg-info/SOURCES.txt'
+[2.351s] running build_ext
+[2.351s] Creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/lib/python3.10/site-packages/msee22-description.egg-link (link to .)
+[2.353s] 
+[2.353s] Installed /home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description
+[2.353s] running symlink_data
+[2.354s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/ament_index
+[2.357s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/ament_index/resource_index
+[2.360s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/ament_index/resource_index/packages
+[2.363s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/resource/msee22_description -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/ament_index/resource_index/packages
+[2.364s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/package.xml -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/msee22_description
+[2.364s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/msee22_description/launch
+[2.366s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/launch/move_robot.launch.py -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/msee22_description/launch
+[2.367s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/launch/view_room.launch.py -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/msee22_description/launch
+[2.367s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/msee22_description/rviz
+[2.371s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/rviz/msee22.rviz -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/msee22_description/rviz
+[2.372s] creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/msee22_description/urdf
+[2.373s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/urdf/inertials.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/msee22_description/urdf
+[2.374s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/urdf/materials.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/msee22_description/urdf
+[2.376s] symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/urdf/msee22.urdf.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/share/msee22_description/urdf
+[2.417s] Invoked command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description' returned '0': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/msee22_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/msee22_description/build --no-deps symlink_data

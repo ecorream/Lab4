@@ -42,20 +42,35 @@ function [thetalist, success] = ECE569_IKinBody(Blist, M, T, thetalist0, eomg, e
 % success =
 %     1
 
-thetalist = thetalist0;
-i = 0;
-maxiterations = 20;
-% TODO: calculate Vb
-% Hint: you will need to use four of the ECE569 functions from earlier
-% Vb = ...
-err = norm(Vb(1: 3)) > eomg || norm(Vb(4: 6)) > ev;
-while err && i < maxiterations
-    % TODO: update thetalist
-    % Hint: the psuedo-inverse is given in MATLAB by pinv()
-    % thetalist = thetalist + ...
-    i = i + 1;
-    % Vb = ...
-    err = norm(Vb(1: 3)) > eomg || norm(Vb(4: 6)) > ev;
-end
-success = ~ err;
+    thetalist = thetalist0;
+    i = 0;
+    maxiterations = 50;
+
+    % ---- Inicializar Vb (error de configuración en body frame) ----
+    Tsb = ECE569_FKinBody(M, Blist, thetalist);       % T_sb(theta)
+    Tbd = ECE569_TransInv(Tsb) * T;                   % T_bd = T_sb^{-1} * T_sd
+    Vb_se3 = ECE569_MatrixLog6(Tbd);                  % se(3) error
+    Vb = ECE569_se3ToVec(Vb_se3);                     % 6x1 twist
+
+    err = (norm(Vb(1:3)) > eomg) || (norm(Vb(4:6)) > ev);
+
+    % ---- Iteración Newton-Raphson ----
+    while err && (i < maxiterations)
+        % Jacobiano body en la configuración actual
+        Jb = ECE569_JacobianBody(Blist, thetalist);
+
+        % Actualización de thetalist
+        thetalist = thetalist + pinv(Jb) * Vb;
+
+        % Recalcular error con los nuevos ángulos
+        Tsb = ECE569_FKinBody(M, Blist, thetalist);
+        Tbd = ECE569_TransInv(Tsb) * T;
+        Vb_se3 = ECE569_MatrixLog6(Tbd);
+        Vb = ECE569_se3ToVec(Vb_se3);
+
+        err = (norm(Vb(1:3)) > eomg) || (norm(Vb(4:6)) > ev);
+        i = i + 1;
+    end
+
+    success = ~err;
 end

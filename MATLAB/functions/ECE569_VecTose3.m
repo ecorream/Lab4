@@ -16,4 +16,20 @@ function se3mat = ECE569_VecTose3(V)
 %     0     0     0     0 
 
 % se3mat = ... TODO
+
+    V = V(:);   
+
+    if numel(V) ~= 6
+        error('ECE569_VecTose3: V debe tener 6 elementos, pero tiene %d', numel(V));
+    end
+
+    omega = V(1:3);
+    v     = V(4:6);
+
+    omega_hat = [    0      -omega(3)  omega(2);
+                  omega(3)      0      -omega(1);
+                 -omega(2)  omega(1)       0    ];
+
+    se3mat = [omega_hat, v;
+              0 0 0      0];
 end

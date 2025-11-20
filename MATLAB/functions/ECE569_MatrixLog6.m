@@ -18,10 +18,30 @@ function expmat = ECE569_MatrixLog6(T)
 
 [R, p] = ECE569_TransToRp(T);
 omgmat = ECE569_MatrixLog3(R);
-if isequal(omgmat, zeros(3))
-    % expmat = ...
-else
-    % theta = ...
-    % expmat = ...
-end
+    if ECE569_NearZero(norm(omgmat))
+   
+        expmat = [zeros(3,3), p;
+                  0 0 0      0];
+    else
+        
+        omgtheta = ECE569_so3ToVec(omgmat);
+        [~, theta] = ECE569_AxisAng3(omgtheta);
+
+        
+        omgmat_unit = omgmat / theta;
+
+      
+        Ginv = (eye(3) / theta) ...
+             - 0.5 * omgmat_unit ...
+             + (1/theta - 0.5 * cot(theta/2)) * (omgmat_unit * omgmat_unit);
+
+       
+        v = Ginv * p;
+
+        vtheta = v * theta;
+
+   
+        expmat = [omgmat, vtheta;
+                  0 0 0   0];
+    end
 end

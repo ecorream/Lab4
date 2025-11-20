@@ -1,0 +1,16 @@
+[1.647s] Invoking command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/build --no-deps symlink_data
+[1.925s] running develop
+[2.151s] running egg_info
+[2.151s] writing wall_description.egg-info/PKG-INFO
+[2.152s] writing dependency_links to wall_description.egg-info/dependency_links.txt
+[2.153s] writing entry points to wall_description.egg-info/entry_points.txt
+[2.154s] writing requirements to wall_description.egg-info/requires.txt
+[2.154s] writing top-level names to wall_description.egg-info/top_level.txt
+[2.158s] reading manifest file 'wall_description.egg-info/SOURCES.txt'
+[2.160s] writing manifest file 'wall_description.egg-info/SOURCES.txt'
+[2.161s] running build_ext
+[2.162s] Creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/lib/python3.10/site-packages/wall-description.egg-link (link to .)
+[2.164s] 
+[2.164s] Installed /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description
+[2.164s] running symlink_data
+[2.247s] Invoked command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description' returned '0': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/build --no-deps symlink_data

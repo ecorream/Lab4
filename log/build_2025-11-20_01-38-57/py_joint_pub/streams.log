@@ -1,0 +1,17 @@
+[1.803s] Invoking command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/py_joint_pub': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/py_joint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/py_joint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/py_joint_pub/build --no-deps symlink_data
+[2.095s] running develop
+[2.348s] running egg_info
+[2.348s] writing py_joint_pub.egg-info/PKG-INFO
+[2.349s] writing dependency_links to py_joint_pub.egg-info/dependency_links.txt
+[2.350s] writing entry points to py_joint_pub.egg-info/entry_points.txt
+[2.351s] writing requirements to py_joint_pub.egg-info/requires.txt
+[2.351s] writing top-level names to py_joint_pub.egg-info/top_level.txt
+[2.356s] reading manifest file 'py_joint_pub.egg-info/SOURCES.txt'
+[2.357s] writing manifest file 'py_joint_pub.egg-info/SOURCES.txt'
+[2.359s] running build_ext
+[2.359s] Creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/py_joint_pub/lib/python3.10/site-packages/py-joint-pub.egg-link (link to .)
+[2.362s] Installing csv script to /home/min/a/ecorream/ece569-fall2025/Lab4/install/py_joint_pub/lib/py_joint_pub
+[2.364s] 
+[2.364s] Installed /home/min/a/ecorream/ece569-fall2025/Lab4/build/py_joint_pub
+[2.364s] running symlink_data
+[2.439s] Invoked command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/py_joint_pub' returned '0': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/py_joint_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/py_joint_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/py_joint_pub/build --no-deps symlink_data

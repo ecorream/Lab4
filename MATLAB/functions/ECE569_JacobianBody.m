@@ -1,33 +1,25 @@
 function Jb = ECE569_JacobianBody(Blist, thetalist)
+% ECE569_JacobianBody
 % *** CHAPTER 5: VELOCITY KINEMATICS AND STATICS ***
-% Takes Blist: The joint screw axes in the end-effector frame when the
-%              manipulator is at the home position, in the format of a 
-%              matrix with the screw axes as the columns,
-%       thetalist: A list of joint coordinates.
-% Returns the corresponding body Jacobian (6xn real numbers).
-% Example Input:
-% 
-% clear; clc;
-% Blist = [[0; 0; 1;   0; 0.2; 0.2], ...
-%        [1; 0; 0;   2;   0;   3], ...
-%        [0; 1; 0;   0;   2;   1], ...
-%        [1; 0; 0; 0.2; 0.3; 0.4]];
-% thetalist = [0.2; 1.1; 0.1; 1.2];
-% Jb = JacobianBody(Blist, thetalist)
-% 
-% Output:
-% Jb =
-%   -0.0453    0.9950         0    1.0000
-%    0.7436    0.0930    0.3624         0
-%   -0.6671    0.0362   -0.9320         0
-%    2.3259    1.6681    0.5641    0.2000
-%   -1.4432    2.9456    1.4331    0.3000
-%   -2.0664    1.8288   -1.5887    0.4000
+% Takes:
+%   Blist:    6xn matrix, each column is a body screw axis B_i
+%   thetalist: n×1 vector of joint angles
+% Returns:
+%   Jb: 6xn body Jacobian matrix
 
-Jb = Blist;
-T = eye(4);
-for i = length(thetalist) - 1: -1: 1   
-    % T = T * ...
-	% Jb(:, i) = ...
-end
+    n = length(thetalist);
+    Jb = zeros(6, n);
+   
+    Jb(:, n) = Blist(:, n);
+    
+    T = eye(4);
+    
+    for i = n-1 : -1 : 1
+        
+        se3_next = ECE569_VecTose3(-Blist(:, i+1) * thetalist(i+1));
+        T = T * ECE569_MatrixExp6(se3_next);
+
+       
+        Jb(:, i) = ECE569_Adjoint(T) * Blist(:, i);
+    end
 end

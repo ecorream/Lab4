@@ -17,5 +17,13 @@ function AdT = ECE569_Adjoint(T)
 %     3     0     0     0     0    -1
 %     0     0     0     0     1     0
 [R, p] = ECE569_TransToRp(T);
-% AdT = ... TODO
+    % Extraer R y p de T
+    [R, p] = ECE569_TransToRp(T);
+
+    % Matriz skew-symmetric de p: p^
+    p_hat = ECE569_VecToso3(p);
+
+    % Construir Ad_T = [R, 0; p^ R, R]
+    AdT = [R,          zeros(3);
+           p_hat * R,  R];
 end

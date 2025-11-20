@@ -1,0 +1,16 @@
+[1.671s] Invoking command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/build --no-deps symlink_data
+[1.957s] running develop
+[2.188s] running egg_info
+[2.189s] writing table_description.egg-info/PKG-INFO
+[2.190s] writing dependency_links to table_description.egg-info/dependency_links.txt
+[2.190s] writing entry points to table_description.egg-info/entry_points.txt
+[2.191s] writing requirements to table_description.egg-info/requires.txt
+[2.192s] writing top-level names to table_description.egg-info/top_level.txt
+[2.196s] reading manifest file 'table_description.egg-info/SOURCES.txt'
+[2.198s] writing manifest file 'table_description.egg-info/SOURCES.txt'
+[2.199s] running build_ext
+[2.199s] Creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/lib/python3.10/site-packages/table-description.egg-link (link to .)
+[2.202s] 
+[2.202s] Installed /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description
+[2.202s] running symlink_data
+[2.227s] Invoked command in '/home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description' returned '0': PYTHONPATH=/home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/min/a/ecorream/ece569-fall2025/Lab4/install/table_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/min/a/ecorream/ece569-fall2025/Lab4/build/table_description/build --no-deps symlink_data

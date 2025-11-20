@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating wall_description.egg-info
+writing wall_description.egg-info/PKG-INFO
+writing dependency_links to wall_description.egg-info/dependency_links.txt
+writing entry points to wall_description.egg-info/entry_points.txt
+writing requirements to wall_description.egg-info/requires.txt
+writing top-level names to wall_description.egg-info/top_level.txt
+writing manifest file 'wall_description.egg-info/SOURCES.txt'
+reading manifest file 'wall_description.egg-info/SOURCES.txt'
+writing manifest file 'wall_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/lib/python3.10/site-packages/wall-description.egg-link (link to .)
+
+Installed /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description
+running symlink_data
+creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/ament_index
+creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/ament_index/resource_index
+creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/ament_index/resource_index/packages
+symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/resource/wall_description -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/ament_index/resource_index/packages
+symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/package.xml -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description
+creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/launch
+symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/launch/view_wall.launch.py -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/launch
+creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/rviz
+symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/rviz/wall.rviz -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/rviz
+creating /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/urdf
+symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/urdf/inertials.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/urdf
+symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/urdf/materials.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/urdf
+symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/urdf/wall.urdf.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/urdf
+symbolically linking /home/min/a/ecorream/ece569-fall2025/Lab4/build/wall_description/urdf/wall_macro.xacro -> /home/min/a/ecorream/ece569-fall2025/Lab4/install/wall_description/share/wall_description/urdf
